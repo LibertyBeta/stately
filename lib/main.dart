@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
               fontSize: 25.0,
             ),
             body1: new TextStyle(
-              fontSize: 18.0,
+              fontSize: 19.0,
             ),
             body2: new TextStyle(
               fontWeight: FontWeight.normal,
@@ -63,7 +63,7 @@ class StatelessHome extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.all(9.0),
+                        padding: const EdgeInsets.all(8.0),
                         child: Text(
                           'There are many ways to understand State. Below are three LinearProgressIndicators. Each one handles the State differently',
                           style: theme.textTheme.body1,
