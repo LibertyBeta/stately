@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.plaster.stately.stately">
+    package="app.plaster.stately">
 
     <!-- The INTERNET permission is required for development. Specifically,
          flutter needs it to communicate with the running application
@@ -14,7 +14,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="stately"
+        android:label="Stately Progress"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

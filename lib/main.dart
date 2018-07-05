@@ -63,7 +63,7 @@ class StatelessHome extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(9.0),
                         child: Text(
                           'There are many ways to understand State. Below are three LinearProgressIndicators. Each one handles the State differently',
                           style: theme.textTheme.body1,
@@ -107,7 +107,7 @@ class StatelessHome extends StatelessWidget {
                       Padding(
                         padding: _subTextInsert,
                         child: Text(
-                          'This indicator tracks its own internal State, and is aware of the parents input. It animates the values between the parent\'s current value and the previous value of its own State. It is \'stateful\' as well.',
+                          'This indicator tracks its own internal State, and is aware of the parent\'s input. It animates the values between the parent\'s current value and the previous value of its own State. It is \'stateful\' as well.',
                           style: theme.textTheme.body2,
                         ),
                       ),

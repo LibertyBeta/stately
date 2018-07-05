@@ -1,4 +1,4 @@
-package app.plaster.stately.stately
+package app.plaster.stately
 
 import android.os.Bundle
 
